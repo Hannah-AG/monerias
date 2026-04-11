@@ -1,0 +1,116 @@
+/*h1{
+    color:purple;
+    font-family: 'Bungee', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: overline;
+    font-size: 50pt;
+}
+
+h1{
+    background: rgb(127, 2, 2);
+    margin: auto;
+    width: 300px;   
+}
+h2{
+    color: chocolate;
+    font-size: 40pt;
+    font-family:Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    font-family: Arial, cursive;
+}
+ul{
+    font-family: 'Playwrite IN Guides', cursive;
+    font-weight: bolder;
+}
+
+div{
+    background-color: blueviolet;
+    width: 300px;
+    margin: auto;
+    text-align: right;   
+    
+    border: 15px groove blue;
+    border-bottom: 5px dashed palevioletred;
+    border-top-left-radius: 16px;
+}
+*/
+
+body{
+    background-color: #294533;
+    margin: 0;
+
+}
+.buscador{
+    margin-left: 70%;
+    padding: 10px;
+    background-color: transparent;
+    width: 25%;
+}
+
+.box{
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    
+    box-sizing: border-box;
+    
+    background-image: url(IMG/descarga\ \(1\).jpeg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    
+}
+
+.gradiante{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    background: linear-gradient(to left, transparent, #000);
+     
+    
+}
+
+.title{
+    margin: 0;
+    font-family: "UnifrakturMaguntia", cursive;
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+    padding-top: 18rem;
+
+}
+
+p{
+    color:antiquewhite
+}
+
+.tarjeta{
+    width: 90%;
+    height: 12.5rem;
+    background-color: #0009;
+    border-radius: 0.5rem;
+    border-style: inset;
+    margin: auto;
+    padding: 1rem;
+    padding-top: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 90px 0 #000;   
+}
+
+h2{
+    font: 1.5rem arial, cursive;
+    color: white;
+    text-align: center; 
+    text-shadow: 0 0 5px #ddd;
+}
+
+.provisional{
+    width: 160px;
+    border-radius: 100%;
+    
+}
+
+.renira_coronación{
+    width: 600px;
+    
+}

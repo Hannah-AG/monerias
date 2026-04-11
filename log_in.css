@@ -1,0 +1,61 @@
+body{
+    background: rgb(31, 32, 35);
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2{
+    text-align: center;
+    margin: 0;
+    padding-bottom: 12px;
+    font-size: 35px;
+    color: rgb(222, 203, 178);
+    font-weight: 100;
+}
+
+form{
+    background:transparent;
+    max-width: 600px;
+    padding: 20px 0;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(240, 239, 239, 0.667);
+    margin-top: 80px;
+    color:aliceblue;
+}
+
+.form_input{
+    padding: 10px 70px;
+}
+
+.caja_translúcida, textarea, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px 12px;
+    border: none;
+    border-left: 4px ridge rgb(59, 59, 72) ;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(187, 177, 177, 0.6);
+    background-color: transparent;
+    color:aliceblue;
+}
+
+textarea{
+    min-width: 100%;
+    resize: vertical;
+    min-height: fit-content;
+    max-height: 150px;
+}
+
+option{
+    background-color: rgb(31, 32, 35);
+}
+
+label{
+    line-height: 35px;
+}
+
+#check{
+    width: auto;
+    height: auto;
+}
