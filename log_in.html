@@ -24,7 +24,7 @@
                 <input class="caja_translúcida" type="email" placeholder="Correo electrónico" id="email"> 
         </div>
 
-        <!--- SELECCIÓN-->
+        <!--- SELECt-->
         <div class="form_input">
             <label> Seleccione
                 <select  name="type-of-expression" id="">
@@ -32,15 +32,27 @@
                     <option value="">gritar</option>
                     <option value="">rezar</option>
                 </select>
-            </label>
-            
+            </label>            
         </div>
+
+        <!--- DATALIST Y OPTIONS-->
+        <div class="form_input">
+            <label> Seleccione
+                <datalist list="referente" name="type-of-expression" id="">
+                    <option value="">llorar</option>
+                    <option value="">gritar</option>
+                    <option value="">rezar</option>
+                </datalist>
+            </label>            
+        </div>
+
 
         <!--- CAJA DE MENSAJERÍA-->
         <div class="form_input">
             <label for="mensaje">Comentarios</label>
                 <textarea  maxlength="50" placeholder="Deja tu comentario sobre las mejoras implementadas" id="mensaje"></textarea> 
-            <label for="check">Acepto términos y condiciones</label>
+            <label for="check">Acepto términos y condiciones
+            </label>
             <input type="checkbox" id="check">
         </div>
         
