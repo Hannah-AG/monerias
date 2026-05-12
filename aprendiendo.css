@@ -54,7 +54,7 @@ body{
     
     box-sizing: border-box;
     
-    background-image: url(IMG/descarga\ \(1\).jpeg);
+    background-image: url(IMG/ramos-de-flores-a-crochet.jpg);
     background-size: cover;
     background-position: top;
     background-attachment: fixed;
@@ -90,8 +90,8 @@ p{
     background-color: #0009;
     border-radius: 0.5rem;
     border-style: inset;
-    margin: auto;
-    padding: 1rem;
+    margin: 1rem auto;
+    padding: 2rem;
     padding-top: 10px;
     box-sizing: border-box;
     box-shadow: 0 0 90px 0 #000;   
